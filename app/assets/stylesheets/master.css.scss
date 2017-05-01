@@ -14,7 +14,7 @@
 }
 
 .hero {
-  background-image: image_url('aaron-burden-34998.jpg');  /* these lines set the background image to fit the page, instead of just showing the top of the image*/
+  background-image: image_url('jonatan-pie-226805.jpg');  /* these lines set the background image to fit the page, instead of just showing the top of the image*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,4 +45,15 @@ h1, h2, h3, h4, h5, h6, .navbar{ /*removes margins between the hero image and th
 
 .btn {
   border-radius: 0; /* makes the edges of the button square */
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('weather.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
