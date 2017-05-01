@@ -4,7 +4,7 @@
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('escheresque_ste_black.png');
+  background: image_url('escheresque_ste_@2X_black.png');
 }
 
 .navbar-inverse a.navbar-brand {
@@ -14,7 +14,7 @@
 }
 
 .hero {
-  background-image: image_url('jonatan-pie-226805.jpg');  /* these lines set the background image to fit the page, instead of just showing the top of the image*/
+  background-image: image_url('dorin-vancea-83926.jpg');  /* these lines set the background image to fit the page, instead of just showing the top of the image*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,6 +54,6 @@ h1, h2, h3, h4, h5, h6, .navbar{ /*removes margins between the hero image and th
 }
 
 body {
-  background: image_url('weather.png');
+  /*background: image_url('weather.png'); */
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
