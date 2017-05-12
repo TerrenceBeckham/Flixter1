@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Rails Flixter: development" uuid="438ae51a-eda0-4750-949f-5bfbbedd744f">
-      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <introspection-schemas>Flixter_development:*</introspection-schemas>
-    </data-source>
-    <data-source name="Rails Flixter: production" uuid="15ae21ac-2f00-4900-a915-1c60ee746ec4">
+    <data-source name="Rails Flixter1: test" uuid="e3e1f881-908e-4aa4-b8e6-41449f45c0b6">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <user-name>Flixter</user-name>
+      <user-name>postgres</user-name>
     </data-source>
-    <data-source name="Rails Flixter: test" uuid="1099e409-caf8-4d90-b4ae-07b063fdb25e">
+    <data-source name="Rails Flixter1: development" uuid="f08a2cd4-d0bd-4fc3-90d2-d82d30d51d26">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>postgres</user-name>
+    </data-source>
+    <data-source name="Rails Flixter1: production" uuid="fdfb62c5-fd0a-47fd-afca-289f7818029c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>postgres</user-name>
     </data-source>
   </component>
 </project>
