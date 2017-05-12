@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20170511112354) do
   create_table "lessons", force: :cascade do |t|
     t.string   "title"
     t.string   "subtitle"
-    t.string   "section_id"
+    t.integer  "section_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["section_id"], name: "index_lessons_on_section_id", using: :btree
