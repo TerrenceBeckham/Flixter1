@@ -7,7 +7,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   # Choose what kind of storage to use for this uploader:
   #storage :file
    storage :aws
-   process resize_to_fill: [800,350]
+   process resize_to_fill: [400,350]
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
@@ -18,9 +18,9 @@ class ImageUploader < CarrierWave::Uploader::Base
    #def extension_white_list #allows only the uploading of these types of files
      #%W(jpg jpeg png gif)
    #end
-  def size_range
-    1..4.megabytes
-  end
+  #def size_range
+    #1..4.megabytes
+  #end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url
