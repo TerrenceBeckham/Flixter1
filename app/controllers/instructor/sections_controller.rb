@@ -3,7 +3,6 @@ class Instructor::SectionsController < ApplicationController
   before_action :require_authorized_for_current_course, only: [:create]
   before_action :require_authorized_for_current_section, only: [:update]
 
-
   def create
     @section = current_course.sections.create(section_params)
     redirect_to instructor_course_path(current_course)
@@ -11,12 +10,12 @@ class Instructor::SectionsController < ApplicationController
 
   def update
     current_section.update_attributes(section_params)
-    render text: 'updated'
+    render plain: 'updated'
   end
 
   private
   def current_section
-    @current_section ||= Section.find(params[:id])
+    @current_section ||= Section.find(params[:section_id])
   end
 
   def require_authorized_for_current_course
