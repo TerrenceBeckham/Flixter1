@@ -67,4 +67,4 @@ gem 'stripe'
 gem 'ranked-model'
 
 gem 'jquery-ui-rails'
-gem 'font-awesome-sass'
+gem 'font-awesome-rails'
